@@ -1,0 +1,95 @@
+/* General styling */
+
+/* variable */
+:root {
+  --color-primary: hsl(31, 77%, 52%);
+  --color-secondary: hsl(184, 100%, 22%);
+  --color-tertiary: hsl(179, 100%, 13%);
+  --color-white: hsla(0, 0%, 100%, 0.75);
+  --color-gray: hsl(0, 0%, 95%);
+}
+
+a {
+  text-decoration: none;
+}
+
+.mt6 {
+  margin-top: 6em;
+}
+
+.btn {
+  background-color: var(--color-gray);
+  border: thin 1px var(--color-gray);
+  border-radius: 0.25rem;
+  margin-top: 1.5em;
+  width: 80%;
+  padding: 1em;
+  border-radius: 20% 20% 20% 20%;
+  text-align: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* sedan */
+.sedan {
+  height: 50vh;
+  background-color: var(--color-primary);
+  border-radius: 0.25rem;
+  padding: 3em;
+  margin: 0;
+}
+
+.sedan a {
+  color: var(--color-primary);
+}
+
+/* suv */
+.suv {
+  height: 50vh;
+  background-color: var(--color-secondary);
+  border-radius: 0.25rem;
+  padding: 3em;
+  margin: 0;
+}
+
+.suv a {
+  color: var(--color-secondary);
+}
+
+/* luxury */
+.luxury {
+  height: 50vh;
+  background-color: var(--color-tertiary);
+  border-radius: 0.25rem;
+  padding: 3em;
+  margin: 0;
+}
+
+.luxury a {
+  color: var(--color-tertiary);
+}
+
+/* Mobile size */
+@media only screen and (min-width: 375px) {
+  .flex-row {
+    flex-direction: row;
+  }    
+}
+
