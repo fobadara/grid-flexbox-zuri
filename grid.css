@@ -1,0 +1,54 @@
+/* General styling */
+.container {
+  width: 40%
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+div {
+  margin: 0.4em;
+}
+
+/* Grid styling */
+.orange {
+  margin: 0.4em;
+  background: #ffa500;
+  /* width: 2fr; */
+  height: 150px;
+  grid-column: span 2;
+}
+
+.yellow {
+  margin: 0.4em;
+  background: #ffff00;
+  /* width: 150px; */
+  height: 150px;
+}
+
+.green {
+  margin: 0.4em;
+  background: #008000;
+  /* width: 1fr; */
+  height: 150px;
+  grid-column: span 1;
+}
+
+.blues {
+  grid-column: span 2;
+}
+
+.blue {
+  margin: 0.3em;
+  background: #9acddf;
+  /* width: 2fr; */
+  height: 70px;
+  /* grid-column: span 4;
+  border: 1px solid black; */
+}
+
+.light-bl {
+  background: #add8e6;
+}
