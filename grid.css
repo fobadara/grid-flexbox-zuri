@@ -1,11 +1,17 @@
 /* General styling */
 .container {
-  width: 40%
+  width: 60%;
+  padding: 2em;
+  border-radius: 5px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dark-bg {
+  background-color: rgb(3, 7, 61);
 }
 
 div {
