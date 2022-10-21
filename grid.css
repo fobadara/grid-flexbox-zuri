@@ -21,7 +21,7 @@ div {
 /* Grid styling */
 .orange {
   margin: 0.4em;
-  background: #ffa500;
+  background: #eb5020;
   /* width: 2fr; */
   height: 150px;
   grid-column: span 2;
@@ -29,14 +29,14 @@ div {
 
 .yellow {
   margin: 0.4em;
-  background: #ffff00;
+  background: #ffa401;
   /* width: 150px; */
   height: 150px;
 }
 
 .green {
   margin: 0.4em;
-  background: #008000;
+  background: #05aa42;
   /* width: 1fr; */
   height: 150px;
   grid-column: span 1;
@@ -48,7 +48,7 @@ div {
 
 .blue {
   margin: 0.3em;
-  background: #9acddf;
+  background: #01aefd;
   /* width: 2fr; */
   height: 70px;
   /* grid-column: span 4;
